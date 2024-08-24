@@ -6,6 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/*Letra EmbedCode*/
+.moderustic-regular> {
+  font-family: "Moderustic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*Letra para mi nombre -> Juan Gabriel Aballay*/
+.new-amsterdam-regular {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 150;
+  font-style: normal;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
