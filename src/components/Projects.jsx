@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   return (
-    <section id="projects">
+    <section id="proyectos">
       <h2>Projects</h2>
       <div className="project-list">
         {/* Add project components or details here */}

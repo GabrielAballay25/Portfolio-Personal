@@ -10,6 +10,7 @@ header {
   color: white;
 }
 /*Nav bar*/
+
 .custom-navbar {
   background-color: #004D74; /* Color de fondo azul oscuro */
 }
@@ -55,3 +56,64 @@ footer {
   bottom: 0;
 }
 
+/*Media Queries - Celulares*/
+@media (max-width: 600px) {
+  header {
+      text-align: center;
+      font-size: 1.2rem;
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+      font-size: 0.9rem;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+
+  section {
+      padding: 1rem;
+      margin: 1rem 0;
+  }
+
+  footer {
+      font-size: 0.8rem;
+  }
+}
+/*Media Queries - Tabletas*/
+@media (min-width: 601px) and (max-width: 1024px) {
+  header {
+      text-align: left;
+      padding: 1.5rem;
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+      font-size: 1rem;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  section {
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+  }
+}
+/*Media Queries - Escritorio*/
+@media (min-width: 1025px) {
+  header {
+      padding: 2rem;
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+      font-size: 1.2rem;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  section {
+      padding: 3rem;
+      margin: 3rem 0;
+  }
+
+  footer {
+      font-size: 1rem;
+  }
+}

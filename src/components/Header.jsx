@@ -9,11 +9,11 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto me-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#about">Acerca de mi</Nav.Link>
-            <Nav.Link href="#projects">Proyectos</Nav.Link>
-            <Nav.Link href="#skills">Habilidades</Nav.Link>
-            <Nav.Link href="#contact">Contacto</Nav.Link>
+            <Nav.Link href="#inicio">Inicio</Nav.Link>
+            <Nav.Link href="#sobremi">Acerca de mi</Nav.Link>
+            <Nav.Link href="#proyectos">Proyectos</Nav.Link>
+            <Nav.Link href="#habilidades">Habilidades</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
